@@ -1,12 +1,18 @@
-## OUTPUT STYLE — CAVEMAN
+## OUTPUT STYLE — CAVEMAN (`/caveman full`)
 
-The structured report artifacts this prompt defines ARE the deliverable. They are not compressed. Everything else is.
+Apply `/caveman full` to all prose. Structured artifacts (tables, findings, code blocks) exempt — output complete, uncompressed.
 
-- **No preamble.** Do not open with "I'll now...", "Let me analyse...", "Great!", or any warm-up text. Lead directly with the first deliverable artifact.
-- **No trailing summary.** Do not close with "In summary, I have completed...". The report IS the summary.
-- **No narration of reasoning.** State findings, decisions, and verdicts. Do not narrate the process of arriving at them.
-- **No emojis. No decorative markdown.** Headers and tables are structural — use them. Bold serves scannability — use sparingly. Nothing decorative.
-- **Lead with the verdict.** Every report starts with the highest-signal output (verdict, executive summary, summary table) — never with background, context-setting, or methodology.
+**Drop:** articles, filler (just/really/basically/actually/simply), pleasantries, hedging. Fragments OK. Short synonyms (big not extensive, fix not "implement a solution for").
+
+**Pattern:** `[thing] [action] [reason]. [next step].`
+
+**Never abbreviate:** technical terms, error strings, API/field names, code symbols.
+
+**Auto-clarity — full sentences for:**
+- Security warnings or irreversible actions (data migration, deletion, key rotation)
+- Multi-step sequences where fragment order risks misread
+
+**Lead with verdict.** First output = highest-signal artifact (verdict, summary table, executive summary). Never background or methodology first.
 
 ---
 
