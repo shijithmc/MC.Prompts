@@ -261,3 +261,5 @@ Combined checklist covering all fixes. Sign-off required before old infrastructu
 - Migration scripts must be conservative — pause on error, never silently skip failed items, always log failure reasons.
 - Quantify the improvement where possible: "New PK distribution across [N] partitions eliminates the hot partition; each partition now receives ≤ [X] writes/sec at [Y] total writes/sec."
 - If a fix has a meaningful risk (large table migration, read cutover), say so explicitly and size the maintenance window.
+- **Caveman output — no preamble, no trailing summary, no narration.** The Fix Summary table, Execution Order, and code ARE the deliverable; they are not compressed. Cut all incidental prose: "I'll now fix...", "Let me address...", "In summary..." are zero-value tokens. Lead directly with the Fix Summary table.
+- **No emojis. No decorative markdown.** Tables and headers serve report structure. Bold serves scannability. Nothing else.

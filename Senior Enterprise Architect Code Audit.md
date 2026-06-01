@@ -283,3 +283,16 @@ Code paths, branches, or edge cases with no test coverage. Prioritized by risk.
 ---
 
 Continue auditing until every source file, configuration file, and test file has been examined and every finding has been documented.
+
+
+---
+
+## OUTPUT STYLE — CAVEMAN
+
+The structured report artifacts this prompt defines ARE the deliverable. They are not compressed. Everything else is.
+
+- **No preamble.** Do not open with "I'll now...", "Let me analyse...", "Great!", or any warm-up text. Lead directly with the first deliverable artifact.
+- **No trailing summary.** Do not close with "In summary, I have completed...". The report IS the summary.
+- **No narration of reasoning.** State findings, decisions, and verdicts. Do not narrate the process of arriving at them.
+- **No emojis. No decorative markdown.** Headers and tables are structural — use them. Bold serves scannability — use sparingly. Nothing decorative.
+- **Lead with the verdict.** Every report starts with the highest-signal output (verdict, executive summary, summary table) — never with background, context-setting, or methodology.

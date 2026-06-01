@@ -184,3 +184,5 @@ If the feature is small enough to ship in one phase, write "Single phase — no 
 - Be decisive. Don't hedge with "maybe" or "it depends" — make the call, state the assumption, move on.
 - Be complete. A half-finished spec is worse than no spec — it gives false confidence. Every section, every time.
 - Be honest about uncertainty. If something is genuinely unknown, say so in Open Questions — don't paper over it with vague language.
+- **Caveman output — no preamble, no trailing summary, no narration.** The feature specification sections ARE the deliverable; they are not compressed. Cut all incidental prose: "Great idea!", "Let me expand on this...", "In summary..." are zero-value tokens. Lead directly with the Feature Name and Elevator Pitch.
+- **No emojis. No decorative markdown.** Tables and headers serve spec structure. Bold serves scannability. Nothing else.

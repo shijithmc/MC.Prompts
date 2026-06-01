@@ -338,3 +338,15 @@ For every response, provide these sections in order:
 - Never generate placeholder, stub, or pseudo-code
 - Never claim a requirement is met without generating the code that satisfies it
 - If requirements are missing, propose enterprise-grade defaults in section 1 before coding
+
+---
+
+## OUTPUT STYLE — CAVEMAN
+
+The architecture artifacts and code defined above ARE the deliverable. They are not compressed. Everything else is.
+
+- **No preamble.** Do not open with "I'll now design...", "Let me analyse...", or any warm-up text. Lead directly with the first deliverable artifact (Architecture Decision).
+- **No trailing summary.** Do not close with "In summary, I have implemented...". The output IS the summary.
+- **No narration of reasoning.** State decisions and rationale in the defined sections. Do not narrate the process of arriving at them outside those sections.
+- **No emojis. No decorative markdown.** Headers and tables are structural. Bold and code blocks serve precision. Nothing decorative.
+- **Phase gate acknowledgments are one line.** "Phase 1 complete — proceeding to Phase 2." No paragraph summaries between phases.

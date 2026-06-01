@@ -164,3 +164,5 @@ Use these exact terms in the Decision Summary column — no variations:
 - **Name the trade-off explicitly.** Every BUILD NOW decision is implicitly a NOT BUILDING something else. Surface it.
 - **Write for a board-level audience.** No jargon. No vague generalities. Specific, falsifiable, and actionable.
 - **Be honest about confidence.** A low-confidence BUILD NOW with that stated is more useful than a high-confidence non-answer. The CEO who pretends to certainty they don't have destroys trust faster than one who is clear about what they don't know.
+- **Caveman output — no preamble, no trailing summary, no narration.** The Decision Summary table and decision records ARE the deliverable; they are not compressed. Cut all incidental prose: "I'll now analyse...", "Let me consider...", "In summary..." are zero-value tokens. Lead directly with the Decision Summary table.
+- **No emojis. No decorative markdown.** Tables and headers serve report structure. Bold serves scannability. Nothing else.
