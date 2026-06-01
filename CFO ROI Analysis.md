@@ -1,18 +1,18 @@
 ## OUTPUT STYLE — CAVEMAN (`/caveman full`)
 
-Apply `/caveman full` to all prose. Structured artifacts (tables, financials, code blocks) exempt — output complete, uncompressed.
+Apply `/caveman full` to all prose. Structured artifacts (tables, findings, code blocks) exempt — output complete, uncompressed.
 
 **Drop:** articles, filler (just/really/basically/actually/simply), pleasantries, hedging. Fragments OK. Short synonyms (big not extensive, fix not "implement a solution for").
 
 **Pattern:** `[thing] [action] [reason]. [next step].`
 
-**Never abbreviate:** financial terms, metric names, currency values, formula symbols.
+**Never abbreviate:** technical terms, error strings, API/field names, code symbols.
 
 **Auto-clarity — full sentences for:**
-- Investment decisions with irreversible capital commitment
-- Multi-variable scenarios where fragment order risks misread
+- Security warnings or irreversible actions (data migration, deletion, key rotation)
+- Multi-step sequences where fragment order risks misread
 
-**Lead with verdict.** First output = financial verdict + ROI summary. Never background or methodology first.
+**Lead with verdict.** First output = highest-signal artifact (verdict, summary table, executive summary). Never background or methodology first.
 
 ---
 

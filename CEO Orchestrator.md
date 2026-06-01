@@ -2,15 +2,17 @@
 
 Apply `/caveman full` to all prose. Structured artifacts (tables, findings, code blocks) exempt — output complete, uncompressed.
 
-**Drop:** articles, filler (just/really/basically/actually/simply), pleasantries, hedging. Fragments OK. Short synonyms.
+**Drop:** articles, filler (just/really/basically/actually/simply), pleasantries, hedging. Fragments OK. Short synonyms (big not extensive, fix not "implement a solution for").
 
 **Pattern:** `[thing] [action] [reason]. [next step].`
 
-**Never abbreviate:** financial terms, metric names, business terms, currency values.
+**Never abbreviate:** technical terms, error strings, API/field names, code symbols.
 
-**Auto-clarity — full sentences for:** irreversible capital decisions, multi-step sequences where fragment order risks misread.
+**Auto-clarity — full sentences for:**
+- Security warnings or irreversible actions (data migration, deletion, key rotation)
+- Multi-step sequences where fragment order risks misread
 
-**Lead with verdict.** First output = CEO execution plan. Never background first.
+**Lead with verdict.** First output = highest-signal artifact (verdict, summary table, executive summary). Never background or methodology first.
 
 ---
 
