@@ -72,7 +72,7 @@ Document every finding immediately:
 
 | Field | Content |
 |-------|---------|
-| ID | BUG-NNN |
+| ID | CEO-BUG-NNN |
 | Severity | Critical / High / Medium / Low |
 | Page / Feature | Location in the application |
 | Steps | Numbered reproduction steps |
@@ -98,9 +98,11 @@ Document every finding immediately:
 | Revenue Risk (higher = more risk) | |
 | Customer Satisfaction Prediction | |
 
-**Score rubric:** 90–100 launch-ready · 75–89 conditional launch · 60–74 significant rework required · <60 not ready
+**Score rubric (Launch Readiness, Product Quality, Customer Satisfaction — higher is better):** 90–100 launch-ready · 75–89 conditional launch · 60–74 significant rework required · <60 not ready
 
-**Top 10 Critical Issues** — ranked by business impact, each referencing its BUG-NNN ID.
+**Revenue Risk uses the inverse scale** — 0 = no revenue risk, 100 = severe revenue risk. Do not apply the higher-is-better rubric to it; in any aggregate or cross-persona synthesis, treat high Revenue Risk as a negative signal.
+
+**Top 10 Critical Issues** — ranked by business impact, each referencing its CEO-BUG-NNN ID.
 
 ### Product Review
 
@@ -115,7 +117,7 @@ Full table of all issues found, sorted by severity descending.
 
 ### Launch Decision
 
-Choose one with justification citing specific BUG-IDs and scores:
+Choose one with justification citing specific CEO-BUG-IDs and scores:
 
 - **APPROVE FOR LAUNCH** — zero Critical bugs; all High bugs have a documented fix timeline; Launch Readiness ≥ 85
 - **APPROVE WITH CONDITIONS** — zero Critical bugs blocking core flows; High bugs have an agreed fix plan; Launch Readiness 70–84
